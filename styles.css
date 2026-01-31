@@ -34,28 +34,6 @@ p {
   color: var(--font-color-text);
 }
 
-button {
-  background: none;
-  outline: none;
-  border: none;
-  border-radius: 100%;
-  padding: 15px;
-  transition: all 0.25s ease-in-out;
-  cursor: pointer;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateX(-100px);
-}
-
-button:hover {
-  box-shadow: 0 10px 30px -10px rgb(97, 97, 97);
-}
-
-.btn-active {
-  opacity: 1;
-  pointer-events: all;
-}
-
 .img-article {
   border-radius: 15px;
   width: 150px;
