@@ -1,3 +1,10 @@
+:root {
+  --box-shadow: hsl(339, 70, 12);
+  --font-color-text: hsl(0, 0, 18);
+  --font-color-heading: hsl(0, 0, 12);
+  --font-color-label: hsl(0, 0, 87);
+}
+
 body {
   margin: 0;
   padding: 0;
